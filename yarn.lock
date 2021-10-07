@@ -2715,14 +2715,9 @@ find-up@^4.0.0, find-up@^4.1.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-flagsmith@^1.6.7:
-  version "1.6.7"
-  resolved "https://registry.yarnpkg.com/flagsmith/-/flagsmith-1.6.7.tgz#d01a5ee833a7d404e7b330fb0e795bff45c1bd42"
-  integrity sha512-yWgbhLBRmAkGkVoOLe6rPEz+2jg2+y+rx7o2EC9U43KV2jL2231JMUmVeF3Uk6pdJiHpMrF7uIY5LAnTZA2Nrw==
-
 "flagsmith@https://github.com/aspidites/flagsmith-js-client#add-feature-enabled":
   version "1.7.0"
-  resolved "https://github.com/aspidites/flagsmith-js-client#cbf21ec5ab51764fd2097f0e4ca140f5623c9d4d"
+  resolved "https://github.com/aspidites/flagsmith-js-client#cebda36400328bf4b47fbb2957076b3782b74bf7"
   dependencies:
     "@callstack/async-storage" "^1.1.0"
     encoding "^0.1.12"
