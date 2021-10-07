@@ -46,7 +46,7 @@
     "react-dom": "^16.11.0 || ^17"
   },
   "dependencies": {
-    "flagsmith": "^1.5.0",
+    "flagsmith": "https://github.com/aspidites/flagsmith-js-client#add-feature-enabled",
     "prop-types": "^15.7.2"
   },
   "devDependencies": {

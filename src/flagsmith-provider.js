@@ -111,6 +111,13 @@ const FlagsmithProvider = ({
     [flagsmith]
   );
 
+  const featureEnabled = useCallback(
+    (key) => {
+      return flagsmith.featureEnabled(key);
+    },
+    [flagsmith]
+  );
+
   const getFlags = useCallback(async () => {
     return await flagsmith.getFlags();
   }, [flagsmith]);
@@ -150,6 +157,7 @@ const FlagsmithProvider = ({
         api,
         identify,
         hasFeature,
+        featureEnabled,
         getValue,
         subscribe: useSubscription,
         logout,
