@@ -43,9 +43,14 @@ export interface Flagsmith {
   stopListening: () => void;
 
   /**
-   * Determine whether a flag is enabled e.g. flagsmith.hasFeature("powerUserFeature")
+   * Determine whether a flag is defined e.g. flagsmith.hasFeature("powerUserFeature")
    */
   hasFeature: (key: string) => boolean;
+
+  /**
+   * Determine whether a flag is enabled e.g. flagsmith.featureEnabled("powerUserFeature")
+   */
+  featureEnabled: (key: string) => boolean;
 
   /**
    * Get the value of a particular remote config e.g. flagsmith.getValue("font_size")
