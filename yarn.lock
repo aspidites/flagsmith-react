@@ -2716,8 +2716,8 @@ find-up@^4.0.0, find-up@^4.1.0:
     path-exists "^4.0.0"
 
 "flagsmith@https://github.com/aspidites/flagsmith-js-client#add-feature-enabled":
-  version "1.7.1"
-  resolved "https://github.com/aspidites/flagsmith-js-client#51555aa2d2777a9bdc6219ae1904d91d6f056d68"
+  version "1.7.3"
+  resolved "https://github.com/aspidites/flagsmith-js-client#fc85ab170edf966fce80bf11c73ec6c7aec2aa17"
   dependencies:
     "@callstack/async-storage" "^1.1.0"
     encoding "^0.1.12"
